@@ -1,0 +1,6 @@
+project-folder/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   └── App.js

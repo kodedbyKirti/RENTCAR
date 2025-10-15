@@ -5,41 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RentCars</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
+  <header class="header">
+    <div class="logo">
+      <img src="mainlogo.png" alt="Logo">
+    </div>
+
     <nav class="navbar">
-        <div class="logo">RENTCARS</div>
-        <ul>
-            <li><a href="#">Become a renter</a></li>
-            <li><a href="#">Rental deals</a></li>
-            <li><a href="#">How it work</a></li>
-            <li><a href="#">Why choose us</a></li>
-            <li><a href="#">Sign in</a></li>
-        </ul>
-        <button class="btn">Sign up</button>
+      <ul>
+        <li><a href="#">Become a renter</a></li>
+        <li><a href="#">Rental deals</a></li>
+        <li><a href="#">How it work</a></li>
+        <li><a href="#">Why choose us</a></li>
+      </ul>
     </nav>
+
+    <div class="auth-buttons">
+      <a href="#" class="signin">Sign in</a>
+      <button class="signup">Sign up</button>
+    </div>
+  </header>
+
     <div class="main">
         <div class="main-content">
-            <h1>Find, book and <br>rent a car <span class="highlight">Easily</span></h1>
+            <h1>Find, book and <br>rent a car <img src="easily.png" alt=""></span></h1>
             <p>Get a car wherever and whenever you need it with your IOS and Android device.</p>
             <div class="app-buttons"> 
                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" />
                 <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" />
             </div>
-        </div>
-        <img class="car-img" src="car 2 1.png" alt="Car" />
+        </div><div class="car_container"><img class="car-img" src="car 2 1.png" alt="Car" /></div>
+        
     </div>
     <div class="search-bar">
         <div class="search-item">
-            <span class="search-label">Location</span>
+           <span class="search-label"><i class="fas fa-location-dot"></i> Location</span>
             <input class="search-input" type="text" placeholder="Search your location" />
         </div>
         <div class="search-item">
-            <span class="search-label">Pickup date</span>
+            <span class="search-label"><i class="fas fa-calendar-days"></i> Pickup date</span>
             <input class="search-input" type="text" placeholder="Tue 15 Feb, 09:00" />
         </div>
         <div class="search-item">
-            <span class="search-label">Return date</span>
+            <span class="search-label"><i class="fas fa-calendar-days"></i> Return dateReturn date</span>
             <input class="search-input" type="text" placeholder="Thu 16 Feb, 11:00" />
         </div>
         <button class="search-btn">Search</button>
@@ -82,7 +93,7 @@
     </div>
     <div class="choose-main">
         <div class="choose-img">
-            <img src="Audi 1.png" alt="Audi Car" />
+            <img src="audiimg2.png" alt="Audi Car" />
         </div>
         <div class="choose-content">
             <span class="choose-tag">WHY CHOOSE US</span>
@@ -132,7 +143,6 @@
         </div>
     </div>
 </section>
-<!-- Add below your choose-section in index.html -->
 <section class="popular-section">
     <div class="popular-header">
         <span class="popular-tag">POPULAR RENTAL DEALS</span>
@@ -140,7 +150,7 @@
     </div>
     <div class="popular-list">
         <div class="popular-card">
-            <img src="https://pngimg.com/d/jaguar_PNG10141.png" alt="Jaguar XE L P250" class="popular-car-img" />
+            <img src="https://i.pinimg.com/1200x/aa/8f/a7/aa8fa7cdcda3cc3b9df1a44af8df4a68.jpg" alt="Jaguar XE L P250" class="popular-car-img" />
             <div class="popular-card-content">
                 <strong>Jaguar XE L P250</strong>
                 <div class="popular-rating">
@@ -163,7 +173,7 @@
         </div>
 
         <div class="popular-card">
-            <img src="https://pngimg.com/d/audi_PNG1726.png" alt="Audi R8" class="popular-car-img" />
+            <img src="https://i.pinimg.com/1200x/b8/58/1d/b8581dcf2a549d5faac4e6b267d7708d.jpg" alt="Audi R8" class="popular-car-img" />
             <div class="popular-card-content">
                 <strong>Audi R8</strong>
                 <div class="popular-rating">
@@ -185,12 +195,12 @@
             </div>
         </div>
         <div class="popular-card">
-            <img src="https://pngimg.com/d/bmw_PNG1714.png" alt="BMW M3" class="popular-car-img" />
+            <img src="https://i.pinimg.com/1200x/b3/b8/3f/b3b83f5225aac7b37d8db45ad18f6900.jpg" alt="BMW M3" class="popular-car-img" />
             <div class="popular-card-content">
                 <strong>BMW M3</strong>
                 <div class="popular-rating">
                     <span>⭐ 4.5</span>
-                    <span class="popular-reviews">(2,038 reviews)</span>
+                    <span class="popular-reviews">(2,036 reviews)</span>
                 </div>
                 <div class="popular-details">
                     <span>4 Passengers</span>
@@ -207,91 +217,57 @@
             </div>
         </div>
         <div class="popular-card">
-            <img src="https://pngimg.com/d/bmw_PNG1714.png" alt="BMW M3" class="popular-car-img" />
-            <div class="popular-card-content">
-                <strong>BMW M3</strong>
-                <div class="popular-rating">
-                    <span>⭐ 4.5</span>
-                    <span class="popular-reviews">(2,038 reviews)</span>
-                </div>
-                <div class="popular-details">
-                    <span>4 Passengers</span>
-                    <span>Auto</span>
-                    <span>Air Conditioning</span>
-                    <span>4 Doors</span>
-                </div>
-                <div class="popular-price-row">
-                    <span class="popular-price-label">Price</span>
-                    <span class="popular-price">$1,600</span>
-                    <span class="popular-day">/day</span>
-                </div>
-                <button class="popular-btn">Rent Now &rarr;</button>
-            </div>
-        </div>
-        <div class="popular-card">
-            <img src="https://pngimg.com/d/bmw_PNG1714.png" alt="BMW M3" class="popular-car-img" />
-            <div class="popular-card-content">
-                <strong>BMW M3</strong>
-                <div class="popular-rating">
-                    <span>⭐ 4.5</span>
-                    <span class="popular-reviews">(2,038 reviews)</span>
-                </div>
-                <div class="popular-details">
-                    <span>4 Passengers</span>
-                    <span>Auto</span>
-                    <span>Air Conditioning</span>
-                    <span>4 Doors</span>
-                </div>
-                <div class="popular-price-row">
-                    <span class="popular-price-label">Price</span>
-                    <span class="popular-price">$1,600</span>
-                    <span class="popular-day">/day</span>
-                </div>
-                <button class="popular-btn">Rent Now &rarr;</button>
-            </div>
-        </div>
-        <div class="popular-card">
-            <img src="https://pngimg.com/d/lamborghini_PNG10717.png" alt="Lamborghini Huracan" class="popular-car-img" />
+            <img src="https://i.pinimg.com/736x/1c/fc/2d/1cfc2d57ef34e2bb0ab2ca0b4dc23872.jpg" alt="BMW M3" class="popular-car-img" />
             <div class="popular-card-content">
                 <strong>Lamborghini Huracan</strong>
                 <div class="popular-rating">
-                    <span>4.3</span>
+                    <span>⭐ 4.3</span>
                     <span class="popular-reviews">(2,236 reviews)</span>
                 </div>
                 <div class="popular-details">
-                    <span>2 Passengers</span>
+                    <span>4 Passengers</span>
                     <span>Auto</span>
                     <span>Air Conditioning</span>
-                    <span>2 Doors</span>
+                    <span>4 Doors</span>
                 </div>
                 <div class="popular-price-row">
                     <span class="popular-price-label">Price</span>
-                    <span class="popular-price">$2,300</span>
+                    <span class="popular-price">$1,600</span>
                     <span class="popular-day">/day</span>
                 </div>
                 <button class="popular-btn">Rent Now &rarr;</button>
             </div>
         </div>
+        
+       
+        </div>
     </div>
-    <div class="popular-footer">
-        <button class="popular-show-btn">Show all vehicles &rarr;</button>
-    </div>
-</section>
-  <section class="testimonials">
+<section class="testimonials">
     <p class="tag">TESTIMONIALS</p>
     <h2>What people say about us?</h2>
 
     <div class="cards">
       <div class="card">
-        <p class="rating">5.0 stars</p>
+        
+        <img src="https://i.pinimg.com/736x/2a/2e/7d/2a2e7d1c36f3f147be1e26c0826629a1.jpg">
+        <p class="rating">5.0 stars<br>⭐ ⭐ ⭐ ⭐ ⭐</p>
         <p>"I've been using your services for long. Your service is great, I will continue to use it."</p>
         <h4>Emma Wilson</h4>
         <span>From New York, US</span>
       </div>
 
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1603415526960-f7e0328d08d7?auto=format&fit=crop&w=500&q=80">
-        <p class="rating">5.0 stars</p>
+        <img src="https://i.pinimg.com/736x/7e/46/c6/7e46c6d2798eff446b365c5246f4c9ca.jpg">
+        <p class="rating">5.0 stars<br>⭐ ⭐ ⭐ ⭐ ⭐</p>
+        <p>"I feel very secure when using caretall’s services. Your customer care team is very enthusiastic and the driver is always on time."</p>
+        <h4>Charlie Johnson</h4>
+        <span>From New York, US</span>
+      </div>
+
+
+      <div class="card">
+        <img src="https://i.pinimg.com/1200x/1c/85/2e/1c852ea928150dfcf54c5457dbca0a35.jpg">
+        <p class="rating">5.0 stars<br>⭐ ⭐ ⭐ ⭐ ⭐</p>
         <p>"I feel very secure when using caretall’s services. Your customer care team is very enthusiastic and the driver is always on time."</p>
         <h4>Charlie Johnson</h4>
         <span>From New York, US</span>
@@ -299,7 +275,7 @@
 
       <div class="card">
         <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=500&q=80">
-        <p class="rating">5.0 stars</p>
+        <p class="rating">4.0 stars<br>⭐ ⭐ ⭐ ⭐</p>
         <p>"Very smooth and professional experience. I’m impressed with the service quality!"</p>
         <h4>Olivia Brown</h4>
         <span>From California, US</span>
